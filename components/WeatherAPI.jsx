@@ -1,4 +1,4 @@
-const API_KEY = '836da25bc078da58d8a3dafd90839d73';
+const API_KEY = 'your_api_key_here';
 
 export async function fetchWeather(latitude, longitude) {
   const response = await fetch(
